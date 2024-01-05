@@ -1,0 +1,14 @@
+package app;
+
+import java.util.Scanner;
+
+public class ConverterMilesAndKilometrs {
+    private static final double COEFFICIENT_MILES_CONSTANT = 1.60934;
+    Scanner scanner = new Scanner(System.in);
+
+    public static double convertMilesToKilometers(double miles) {
+        double kilometers = miles * COEFFICIENT_MILES_CONSTANT;
+        return kilometers;
+    }
+
+}
