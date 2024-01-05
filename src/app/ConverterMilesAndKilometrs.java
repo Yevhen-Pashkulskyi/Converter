@@ -16,4 +16,8 @@ public class ConverterMilesAndKilometrs {
         return miles;
     }
 
+    public static void printResult (double inputData, String fromInput, double outputData, String fromOutput){
+        System.out.println(inputData + " " +fromInput + " " + outputData + " " + fromOutput );
+    }
+
 }
