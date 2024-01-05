@@ -11,4 +11,9 @@ public class ConverterMilesAndKilometrs {
         return kilometers;
     }
 
+    public static double convertKilometrsToMiles(double kilometers) {
+        double miles = kilometers / COEFFICIENT_MILES_CONSTANT;
+        return miles;
+    }
+
 }
